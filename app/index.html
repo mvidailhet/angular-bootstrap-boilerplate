@@ -51,5 +51,18 @@
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
         <!-- endbuild -->
+
+  	<script type="text/javascript">
+		// Bootstrap workaround fix for IE10 on windows phone 8
+		if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			var msViewportStyle = document.createElement('style')
+			msViewportStyle.appendChild(
+				document.createTextNode(
+					'@-ms-viewport{width:auto!important}'
+				)
+			)
+			document.querySelector('head').appendChild(msViewportStyle)
+		}
+  	</script>
 </body>
 </html>
