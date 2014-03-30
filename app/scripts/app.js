@@ -1,8 +1,9 @@
 'use strict';
 
 angular.module('angularBootstrapBoilerplateApp', [
-  'ngRoute'
-])
+  'ngRoute',
+	'ui.bootstrap'
+	])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

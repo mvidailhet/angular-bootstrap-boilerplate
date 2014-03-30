@@ -7,4 +7,7 @@ angular.module('angularBootstrapBoilerplateApp')
       'AngularJS',
       'Karma'
     ];
-  });
+
+		$scope.dynamicPopover = "Hello, World!";
+		$scope.dynamicPopoverTitle = "Title";
+	});
