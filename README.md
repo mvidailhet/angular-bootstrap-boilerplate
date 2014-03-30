@@ -11,7 +11,10 @@ This boilerplate was created from yeoman generator "generator-angular" : https:/
 The big difference is that I removed all the jquery part of bootstrap and replaced it with ui-bootstrap : http://angular-ui.github.io/bootstrap/
 
 Here is an exhaustive list of the changes made to the generator :
-
+- Replaced "sass-bootstrap" by "bootstrap-sass-official" as the version is more recent.
+- Added ui-bootstrap to handle js part of Bootstrap
+- Removed JQuery
+- Added Respond.js for Internet Explorer 6 to 8 to handle media queries
 
 ## Usage
 Install the node and bower modules
