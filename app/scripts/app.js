@@ -1,16 +1,16 @@
 'use strict';
 
 angular.module('angularBootstrapBoilerplateApp', [
-  'ngRoute',
-	'ui.bootstrap'
+	'ui.bootstrap',
+	'ui.router'
 	])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/', {
-        templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
+  .config(function ($stateProvider, $urlRouterProvider) {
+		// For any unmatched url, redirect to /
+		$urlRouterProvider.otherwise("/");
+		$stateProvider
+			.state('home', {
+				url: "/",
+				controller: 'MainCtrl',
+				templateUrl: "views/main.html"
+			});
   });
