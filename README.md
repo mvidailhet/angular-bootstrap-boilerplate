@@ -1,11 +1,11 @@
 angular-bootstrap-boilerplate
 =============================
 
-### A full web boilerplate using bootstrap and angular.
+### A full web frontend stack using bootstrap and angular.
 
-If you want to make a full angular responsive website, this boilerplate is made for you.
+If you want to make a full angular responsive website, this stack is made for you.
 
-This boilerplate was created from yeoman generator "generator-angular" : https://github.com/yeoman/generator-angular
+This stack was created from yeoman generator "generator-angular" : https://github.com/yeoman/generator-angular
 
 ## So what's the difference?
 The big difference is that I removed all the jquery part of bootstrap and replaced it with ui-bootstrap : http://angular-ui.github.io/bootstrap/
@@ -15,6 +15,7 @@ Here is an exhaustive list of the changes made to the generator :
 - Added ui-bootstrap to handle js part of Bootstrap
 - Removed JQuery
 - Added Respond.js for Internet Explorer 6 to 8 to handle media queries
+- Replaced anguar-route  by angular-ui-router
 
 ## Usage
 Install the node and bower modules
