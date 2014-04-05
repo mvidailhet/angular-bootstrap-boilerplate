@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularBootstrapBoilerplateApp', [
+angular.module('angularBootstrapStackApp', [
 	'ui.bootstrap',
 	'ui.router'
 	])
